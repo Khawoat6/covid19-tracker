@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* background-image: linear-gradient(45deg, #7175da, #9790f2); */
+  background-color: #fff;
+  font-family: 'Muli', sans-serif;
+  /* display: grid; */
+  /* grid-template-columns: auto; */
+  align-items: center;
+  justify-content: center;
+  /* flex-direction: column; */
+  /* min-height: 100vh; */
+  text-align: center;
+  padding-top: 7%;
+  padding-bottom: 3%;
+}
+i {
+  color: #6b46c1;
+}
+.wrapper {
+  width: 1040px;
+  margin: 0 auto;
+}
+.box-wrapper {
+  display: flex;
+}
+.statistic {
+  display: flex;
+  flex-direction: column;
+}
+.statistic a {
+  color: #6b46c1;
+}
+.countries_stat {
+  /* border-collapse: collapse; */
+  margin-top: 3rem;
+  padding-top: 2%;
+  margin: 2%;
+  text-align: center;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.1);
+}
+
+.countries_stat th {
+  padding: 1rem;
+  font-weight: bold;
+  color: black;
+}
+.countries_stat tr {
+  opacity: 0.8;
+}
+.course {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.1);
+  display: flex;
+  max-width: 100%;
+  margin: 20px;
+  overflow: hidden;
+}
+.course h6 {
+  opacity: 0.6;
+  margin: 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.course h2 {
+  letter-spacing: 1px;
+  margin: 10px 0;
+  text-align: center;
+  justify-content: center;
+  color: #6b46c1;
+}
+.course-info {
+  /* background-color: #2a265f; */
+  padding: 30px;
+  position: relative;
+  width: 100%;
+}
+.course-info-1 {
+  /* background-color: #2a265f; */
+  padding: 30px;
+  position: relative;
+  text-align: left;
+  width: 750px;
+  font-size: 30px;
+}
+.course-info-1 h6 {
+  font-size: 10px;
+  text-align: left;
+}
+.course-info-1 h2 {
+  font-size: 25px;
+  text-align: left;
+}

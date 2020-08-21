@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>COVID-19 Dashboard</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="statistic">
+        <h1 class="">COVID-19 Dashboard</h1>
+        <p class="">
+          Data sourced from:
+          <a
+            href="https://rapidapi.com/astsiatsko/api/coronavirus-monitor"
+            target="_blank"
+            >Coronavirus monitor</a
+          >
+          <br />
+          by
+          <a href="https://github.com/Khawoat6" target="_blank"
+            >Oat Phattaraphon</a
+          >
+        </p>
+
+        <div class="course">
+          <div class="course-info">
+            <h6>Total Cases</h6>
+            <h2 id="total_cases"></h2>
+          </div>
+        </div>
+
+        <div class="box-wrapper">
+          <div class="course">
+            <div class="course-info-1">
+              <h6>Total Death</h6>
+              <h2 id="total_death"></h2>
+            </div>
+          </div>
+          <div class="course">
+            <div class="course-info-1">
+              <h6>Total Recovery</h6>
+              <h2 id="total_recovered"></h2>
+            </div>
+          </div>
+          <div class="course">
+            <div class="course-info-1">
+              <h6>New Case</h6>
+              <h2 id="new_case"></h2>
+            </div>
+          </div>
+          <div class="course">
+            <div class="course-info-1">
+              <h6>New Death</h6>
+              <h2 id="new_death"></h2>
+            </div>
+          </div>
+        </div>
+
+        <table class="countries_stat" id="countries_stat">
+          <tr>
+            <th>Country</th>
+            <th>Cases</th>
+            <th>Deaths</th>
+            <th>Serious critical</th>
+            <th>Total recovered</th>
+            <th>Total tested</th>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
